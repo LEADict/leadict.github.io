@@ -1,0 +1,106 @@
+#the-college-application-xhtml-form {
+position:relative;
+float:left;
+background:#ffffff;
+/*top:15px;*/
+/*left:20px;*/
+width: 680px;
+height: 530px;
+margin-top: 15px;
+}
+
+#the-college-application-xhtml-form svg, input, label {
+position:absolute;
+}
+
+#signInfo {
+	position:absolute;
+	left:364px;
+	top:445px;
+}
+
+.userPicture{
+	position:absolute;
+	left:3px;
+	top:-8px;
+}
+
+.username{
+	position:absolute;
+	left:50px;
+	top:5px;
+}
+
+.userSign.clickable:hover {
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	opacity: .5;
+	cursor: pointer;
+}
+ 
+#the-college-application-sidebar {
+	position:absolute;
+	left:695px;
+	/*float:right;*/
+	/*margin-right:5px;*/
+	width:170px;
+	margin-top: 22px;
+	/*background:#c9c;*/
+	text-align:justify;
+	text-justify:inter-word;
+}
+
+#menu.submitApplication {
+	position:absolute;
+	left:27px;
+	top: 455px;
+}
+
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus{outline:0;background-color:#E0F2F7;border:none;}
+
+extarea[readonly],
+select[readonly],
+input[type="date"][readonly],
+input[type="datetime"][readonly],
+input[type="datetime-local"][readonly],
+input[type="email"][readonly],
+input[type="month"][readonly],
+input[type="number"][readonly],
+input[type="password"][readonly],
+input[type="search"][readonly],
+input[type="tel"][readonly],
+input[type="text"][readonly],
+input[type="time"][readonly],
+input[type="url"][readonly],
+input[type="week"][readonly] {
+background-color: #fff;
+/*color: red;*/
+}
+
+#inputNameLast {left:10px; top:158px; width:305px;}
+#inputNameFirst {left:10px; top:197px; width:305px;}
+#inputAddressStreet {left:364px; top:157px; width:304px;}
+#inputAddressCity {left:364px; top:197px; width:148px;}
+#inputAddressState {left:523px; top:197px; width:26px;}
+#inputAddressZip {left:561px; top:197px; width:107px;}
+#inputTelephoneHome {left:10px; top:298px; width:148px;}
+#inputTelephoneWork {left:168px; top:298px; width:146px;}
+#inputSexMale {left:363px; top:313px;}
+#inputSexFemale {left:412px; top:313px;}
+#inputDateOfBirth {left:536px; top:298px; width:107px;}
+#inputEducationElementary {left:13px; top:412px;}
+#inputEducationSecondary {left:13px; top:432px;}
+#inputEducationCollege {left:13px; top:452px;}
+#inputEducationPostGraduate {left:13px; top:472px;}

@@ -1,0 +1,454 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8" />
+
+    <!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <title>Privacy Protection in Cloud Computing</title>
+
+	<meta name="description" content="Identity-Based Data Protection">
+	<meta name="keywords" content="ibe, identity-based encryption, oauth, openid connect, authentication, data protection" />
+	<meta name="author" content="Igor Zboran">
+	<meta name="viewport" content="width=1024, user-scalable=no">
+    
+     <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+ 	<!--meta name="viewport" content="width=device-width, initial-scale=1.0" /-->
+    
+	<!-- Core and extension CSS files -->
+	<link rel="stylesheet" href="core/deck.core.css">
+	<link rel="stylesheet" href="extensions/goto/deck.goto.css">
+	<link rel="stylesheet" href="extensions/menu/deck.menu.css">
+	<link rel="stylesheet" href="extensions/navigation/deck.navigation.css">
+	<link rel="stylesheet" href="extensions/status/deck.status.css">
+	<link rel="stylesheet" href="extensions/hash/deck.hash.css">
+
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif:regular,bold" rel="stylesheet" /> <!-- Load Droid Serif from Google Fonts -->
+    
+	<!-- Custom CSS just for this page -->
+	<link rel="stylesheet" href="introduction.css">
+	<!--link rel="stylesheet" href="css/common.css"-->
+
+	<!--script src="modernizr.custom.js"></script-->
+
+    <!-- All JavaScript at the bottom, except for Modernizr and Respond.
+    	Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
+    <script src="js/modernizr-1.7.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+</head>
+
+<body class="introduction">
+
+	<div id="wrapper">
+
+		<header id="header" class="clearfix" role="banner">
+		
+			<hgroup>
+				<h1 id="site-title"><a href="index.html"><img src="images/LEADict.com.png" alt="LEADict.com"/></a></h1>
+				<!--h2 id="site-description">This is an awesome description of the site!</h2-->
+			</hgroup>
+		
+		</header> <!-- #header -->
+
+		<div id="main" class="clearfix">
+			
+			<!-- Navigation -->
+			<nav id="menu" class="clearfix" role="navigation">
+				<ul> 
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li class="current"><a href="presentation-ibe.html">Cloud Computing & Privacy Protection</a></li>
+					<!--li><a href="presentation-erp-dashboard.html">ERP Dashboard</a></li-->
+					<li><a href="presentation-eforms.html">eForms & Signatures</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav> <!-- #nav -->
+			
+			<article class="deck-container">
+				<section class="slide" id="title-slide">
+					<h1>Cloud Computing</br>&</br>Privacy Protection</h1>
+				</section>
+
+				<section class="slide" id="cloud-computing-1">
+					<h2>Cloud Computing</h2>
+					<p id="service-models"><strong>Three basic service models:</strong>
+						<ul class="slide" id="service-models-details">
+							<li id="infrastructure-as-a-service">
+								Infrastructure-as-a-Service (IaaS)					
+							</li>
+
+							<li id="platform-as-a-service">
+								Platform-as-a-Service (PaaS)
+							</li>
+
+							<li id="software-as-a-service">
+								Software-as-a-Service (SaaS)
+							</li>
+						</ul>
+					</p>
+					<p class="slide" id="deployment-models"><strong>Three basic deployment models:</strong>
+						<ul class="slide" id="deployment-models-details">
+							<li id="public-cloud">
+								Public Cloud					
+							</li>
+
+							<li id="private-cloud">
+								Private Cloud
+							</li>
+
+							<li id="hybrid-cloud">
+								Hybrid Cloud
+							</li>
+						</ul>
+					</p>
+				</section>
+
+				<section class="slide" id="cloud-computing-2">
+					<h2>Cloud Computing (cont.)</h2>
+					<p><strong>Major Benefits:</strong></p>
+					
+					<ul class="slide" id="major-benefits">
+						<li id="reduce-capital-cost">
+							reduce capital cost (CAPEX -> OPEX)
+						</li>
+
+						<li id="focus-on-core-business">
+							focus on core business
+						</li>
+
+						<li id="access-from-anywhere">
+							access from anywhere
+						</li>
+
+						<li id="divest-infrastructure-management">
+							divest infrastructure management
+						</li>
+
+						<li id="enterprise-technology">
+							enterprise technology
+						</li>
+					</ul>
+					
+					<p class="slide" id="issues"><strong>Issues:</strong></p>
+					<ul class="slide" id="issues-details">
+						<li id="security-privacy">
+							security / privacy
+						</li>
+
+						<li id="compliance">
+							compliance
+						</li>
+
+						<li id="legal">
+							legal
+						</li>
+
+					</ul>
+				</section>
+
+				<section class="slide" id="security-concerns">
+					<h2>Cloud Computing - Security Concerns</h2>
+					<p><strong>Security vs. Privacy</strong></p>
+					
+					<ul class="slide" id="security-vs-privacy">
+						<li id="security-definition">
+							<strong>Security</strong> - overall information protection
+						</li>
+
+						<li id="privacy-definition">
+							<strong>Privacy</strong> - individual information governance
+						</li>
+						
+						</br>
+						
+						<li id="cloud-computing-and-security">
+							Cloud Computing & Security - <strong>meet very well</strong>
+						</li>
+						
+						<li id="cloud-computing-and-privacy">
+							Cloud Computing & Privacy - <strong>contradictory</strong>
+						</li>
+						
+					</ul>
+
+					<p class="slide" id="privacy-is-the-issue"><strong>Privacy is the issue!</strong></p>
+					<ul class="slide" id="privacy-is-the-issue-details">
+						<li id="business-information">
+							Business information
+						</li>
+
+						<li id="personal-information">
+							Personal information
+						</li>
+
+					</ul>
+
+					<p class="slide" id="encryption-as-a-protection-technique"><strong>Encryption is one of the most effective data protection techniques.</strong></p>
+					<ul class="slide" id="encryption-as-a-protection-technique-details">
+						<li id="data-at-rest-data-in-transit">
+							<strong>Security</strong> - Data at Rest Encryption, Data in Transit Encryption
+						</li>
+
+						<li id="data-in-use">
+							<strong>Privacy</strong> - Data in Use Encryption
+						</li>
+
+					</ul>
+				</section>
+
+				<section class="slide" id="data-encryption-and-privacy-preserving">
+					<h2>Data Encryption & Privacy Preserving</h2>
+					<p><strong>Challenges:</strong></p>
+					
+					<ul class="slide" id="data-encryption-and-privacy-preserving-challenges">
+						<li id="data-storage-sharing-and-privacy-preserving">
+							Data Storage/Sharing & Privacy preserving 
+						</li>
+						
+						<li id="cloud-computing-technology-integration">
+							Cloud Computing technology integration
+						</li>
+						
+						<li id="decentralized-identity-management">
+							Decentralized Identity Management
+						</li>
+						
+						<li id="multi-trusted-domain-model">
+							Multi-trusted domain model
+						</li>
+						
+					</ul>
+
+				</section>
+
+				<section class="slide" id="proposed-model">
+					<h2>Proposed model</h2>
+					<p><strong>Identity-Based Encryption & Identity Management</strong></p>
+					
+					<ul class="slide" id="identity-based-encryption-and-identity-management">
+						<li id="identity-based-key-generator">
+							<strong>Identity-Based Key Generator + OAuth/OpenID Connect</strong></br>
+							Identity-Based Encryption - no passwords, no certificates, e-mail address 
+						</li>
+
+						<li id="identity-provider">
+							<strong>Identity provider + OAuth/OpenID Connect</strong></br>
+							OAuth - open standard for authorization</br>
+							OpenID Connect - decentralized and secure authentication system
+						</li>
+						
+						<li id="client-side-zero-knowledge-encryption">
+							<strong>Client-side zero-knowledge encryption</strong></br>
+							Cloud data storage provider has zero knowledge of the encryption keys</br>
+							Key generator has zero knowledge of users' data
+						</li>
+
+						<!--li id="federated-two-phase-authentication">
+							<strong>Federated two phase authentication</strong>
+						</li-->
+						
+					</ul>
+					
+					<p class="slide" id="identity-based-encryption-is-as-strong-as-identity-management-itself"><strong>Identity-Based Encryption is as strong as Identity Management itself!</strong></p>
+
+				</section>
+
+				<section class="slide" id="business-model-I">
+					<h2>Business model I.</h2>
+					
+					<img src="/images/Business-Model-I.png" alt="Business Model I.">
+
+				</section>
+
+				<section class="slide" id="business-model-II">
+					<h2>Business model II.</h2>
+					
+					<img src="/images/Business-Model-II.png" alt="Business Model II.">
+
+				</section>
+
+				<section class="slide" id="technology">
+					<h2>Technology</h2>
+					<p><strong>Architecture based on standards</strong></p>
+					
+					<ul class="slide" id="technology-details">
+						<li id="nist">
+							NIST SHA-256, AES-256, CTR-DRBG-256
+						</li>
+
+						<li id="openssl">
+							OpenSSL FIPS 140-2 validated
+						</li>
+						
+						<li id="oauth-2-0">
+							OAuth 2.0 Identity Provider
+						</li>
+
+						<li id="openid-connect">
+							OpenID Connect Provider
+						</li>
+						
+					</ul>
+					
+					<p class="slide" id="technology-pros"><strong>Pros</strong></p>
+					<ul class="slide" id="technology-pros-details">			
+						<li id="pros-usability">
+							usability (no passwords, no certificates), lost key prevention
+						</li>
+
+						<li id="pros-no-certificates-management">
+							no certificates management (creation, storage, distribution, revocation)
+						</li>
+
+						<li id="pros-ibe-like-features">
+							IBE like features, key escrow/fair encryption, no need for receiver's public key before encryption
+						</li>
+
+						<li id="pros-no-ibe-revocation-problem">
+							no IBE revocation problem (online service)
+						</li>
+
+						<!--li id="pros-federated-two-phase-authentication">
+							federated two-phase authentication
+						</li-->
+
+					</ul>
+
+					<p class="slide" id="technology-cons"><strong>Cons</strong></p>
+					<ul class="slide" id="technology-cons-details">
+					
+						<li id="cons-online-service">
+							online service
+						</li>
+
+						<li id="cons-master-key-security">
+							master key security
+						</li>
+
+					</ul>
+
+				</section>
+
+				<section class="slide" id="opportunities">
+					<h2>Opportunities</h2>
+					
+					<ul class="slide" id="opportunities-details">
+						<li id="data-storage-sharing">
+							Data Storage / Sharing
+						</li>
+
+						<li id="health-records-medical-data-sharing">
+							Health Records / Medical Data Sharing
+						</li>
+
+						<li id="big-data">
+							Big Data
+						</li>
+
+						<li id="data-boxes">
+							Data Boxes
+						</li>
+
+						<li id="databases">
+							Databases
+						</li>
+
+						<li id="reporting-business-intelligence">
+							Reporting / Business Intelligence
+						</li>
+
+						<li id="management-information-system">
+							Management Information System
+						</li>
+
+						<li id="e-mail">
+							e-mail
+						</li>
+
+						<li id="eforms-workflow">
+							eForms / Workflow
+						</li>
+
+						<li id="document-management-workflow">
+							Document Management / Workflow
+						</li>
+						
+						<li id="internet-of-things">
+							Internet of Things
+						</li>
+						
+					</ul>
+					
+				</section>
+
+				<section class="slide" id="featured-links">
+					<h2>Featured links</h2>
+					
+					<ul>
+						<li><a href="https://airykey.org">IBP Key Generator</a></li>
+						<li><a href="https://airybox.org">IBP Data Box</a></li>
+						<li><a href="http://igi64.github.io">igi64.github.io</a></li>
+					</ul>
+
+				</section>
+
+				<a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+				<a href="#" class="deck-next-link" title="Next">&#8594;</a>
+
+				<p class="deck-status">
+					<span class="deck-status-current"></span>
+					/
+					<span class="deck-status-total"></span>
+				</p>
+
+				<form action="." method="get" class="goto-form">
+					<label for="goto-slide">Go to slide:</label>
+					<input type="text" name="slidenum" id="goto-slide" list="goto-datalist">
+					<datalist id="goto-datalist"></datalist>
+					<input type="submit" value="Go">
+				</form>
+				
+				<a href="." title="Permalink to this slide" class="deck-permalink">#</a>
+			</article>
+
+		</div> <!-- #main -->
+		
+		<footer id="footer">
+			<!-- You're free to remove the credit link to Jayj.dk in the footer, but please, please leave it there :) -->
+			<p>
+				Copyright &copy; 2014 <a href="#">LEADict.com</a>
+				<!--span class="sep">|</span>
+				Design by <a href="http://jayj.dk" title="Design by Jayj.dk">Jayj.dk</a-->
+			</p>
+		</footer> <!-- #footer -->
+		
+		<div class="clear"></div>
+
+	</div> <!-- #wrapper -->
+
+	<!-- JavaScript at the bottom for fast page loading -->
+
+	<!-- Grab CDN jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+	<script>window.jQuery || document.write('<script src="jquery-1.7.min.js"><\/script>')</script>
+
+	<script src="core/deck.core.js"></script>
+	<script src="extensions/goto/deck.goto.js"></script>
+	<script src="extensions/navigation/deck.navigation.js"></script>
+	<script src="extensions/status/deck.status.js"></script>
+	<script src="extensions/hash/deck.hash.js"></script>
+
+	<!-- Specific to this page -->
+	<script src="introduction.js"></script>
+
+    <script src="js/script.js"></script>
+	
+</body>
+</html>
